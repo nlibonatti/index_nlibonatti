@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ffffff;
+    }
+
+.nav-list{
+    background-color: #06FF00;
+    box-shadow: 0px 0px 5px grey;
+    margin:0;
+    border-radius: 5px;
+    font-size: smaller;
+    }
+
+.nav-item a{
+    text-decoration: none;
+    color:black;
+    }
+
+.nav-item a:hover{
+    color: #DDFFBC;
+    transition: all 200ms ease-in;
+    }
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 1.3rem;
+    }   
+
+main{
+    padding: 1rem 4rem;
+    }
+
+.row{
+    padding: 10px 3px;
+    gap: 3rem;
+    justify-content: center;
+    }
+
+.row-box{
+    display: flex;
+    gap: 4.5rem;
+    padding: 1rem;
+    background-color: white;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px 0px grey;
+
+    }
+
+.row-container{
+    background-color: #FFE400;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px grey;
+
+    }
+
+.img{
+    text-align: center;
+    }
+
+.cripto{
+    display: flex;
+    margin: 3rem;
+    gap: 1rem;
+    }
+
+.form-container{
+  text-align:start;
+  align-items: center;
+
+    }
+
+footer{
+    background-color: #54E346;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+    margin:0;
+    padding: 0.7rem 0.7rem;
+    border-radius: 5px;
+    }
+
+footer a{
+    text-decoration: none;
+    color:black;
+    }
+
+footer a:hover{
+    color: #DDFFBC;
+    transition: all 200ms ease-in;
+    }
+
+@media only screen and (max-width: 575px) {
+
+        main{
+             padding: 1rem 2rem;
+            }
+
+        .nav-list{
+            padding: 0.3rem 0.3rem;
+            }
+
+        .img{
+            display: none;
+            }
+
+        .row{
+             padding: 10px 3px;
+             gap: 1rem;
+                }
+
+        .row-box{
+            gap: 0.5rem;
+            padding: 0.5rem;
+            }
+
+        .row-box p{
+            font-size: 0.8rem;
+            font-style: normal;
+        }
+
+        .row-container{
+                padding: 0.2rem;
+                }
+
+        .para p{
+                font-size: small;
+                margin: 0px;
+                padding: 0px;
+        }
+    }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+        .row-box{
+            gap: 0.5rem;
+            padding: 0.3rem;
+            }
+
+        .row-box p{
+                font-size: 1rem;
+                font-style: normal;
+            }
+
+         img.size{
+            width: 300px;
+            height: 150px;
+          }
+
+          main{
+            padding: 1rem 2rem;
+        }
+    }
+    
+@media only screen and (min-width: 769px) {
+
+        img.size{
+            width: 650px;
+            height: 250px;
+          }
+
+          .row-box p{
+            font-size: 1.5rem;
+            font-style: normal;
+        }
+
+    }   
